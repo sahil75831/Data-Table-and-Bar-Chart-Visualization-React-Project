@@ -1,6 +1,6 @@
-# DataTableWithChart Component
+# Data-Table-and-Bar-Chart-Visualization-React-Project
 
-The `DataTableWithChart` is a React component designed to display a searchable and paginated table of user data fetched from an API. It also includes a bar chart visualization (using Plotly.js) of selected users' ages.
+Theis is a React app designed to display a searchable and paginated table of user data fetched from an API. It also includes a bar chart visualization (using Plotly.js) of selected users'.
 
 ## Features
 
