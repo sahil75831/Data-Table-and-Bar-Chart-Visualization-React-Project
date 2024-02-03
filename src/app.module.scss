@@ -1,0 +1,81 @@
+body {
+  margin: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.searchinput {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(100% - 24px);
+  background-color: rgb(75, 73, 73);
+  padding: 1rem;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  &::placeholder {
+    color: rgb(189, 189, 193);
+    font-style: italic;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 8px;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  gap: 3rem;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: rgb(75, 73, 73);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.button:active {
+  background-color: #004089;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: translateY(1px);
+}
+
+.button:focus {
+  outline: none;
+  border: 2px solid #0056b3;
+}
